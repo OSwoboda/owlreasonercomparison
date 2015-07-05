@@ -1,33 +1,43 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <head>
-    <meta charset='utf-8'>
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-dark.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
-
     <title>OWL-Reasoner-Vergleich auf Life-Science-Ontologien by OSwoboda</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-dark.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/respond.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!--[if lt IE 8]>
+    <link rel="stylesheet" href="stylesheets/ie.css">
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
   </head>
-
   <body>
+      <div id="header">
+        <nav>
+          <li class="fork"><a href="https://github.com/OSwoboda/owlreasonercomparison">View On GitHub</a></li>
+          <li class="downloads"><a href="https://github.com/OSwoboda/owlreasonercomparison/zipball/master">ZIP</a></li>
+          <li class="downloads"><a href="https://github.com/OSwoboda/owlreasonercomparison/tarball/master">TAR</a></li>
+          <li class="title">DOWNLOADS</li>
+        </nav>
+      </div><!-- end header -->
 
-    <header>
-      <div class="container">
-        <h1>OWL-Reasoner-Vergleich auf Life-Science-Ontologien</h1>
-        <h2>Praktikum Semantic Web</h2>
+    <div class="wrapper">
 
-        <section id="downloads">
-          <a href="https://github.com/OSwoboda/owlreasonercomparison/zipball/master" class="btn">Download as .zip</a>
-          <a href="https://github.com/OSwoboda/owlreasonercomparison/tarball/master" class="btn">Download as .tar.gz</a>
-          <a href="https://github.com/OSwoboda/owlreasonercomparison" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
-        </section>
-      </div>
-    </header>
+      <section>
+        <div id="title">
+          <h1>OWL-Reasoner-Vergleich auf Life-Science-Ontologien</h1>
+          <p>Praktikum Semantic Web</p>
+          <hr>
+          <span class="credits left">Project maintained by <a href="https://github.com/OSwoboda">OSwoboda</a></span>
+          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
+        </div>
 
-    <div class="container">
-      <section id="main_content">
         <h1>
 <a id="aufgabenstellung" class="anchor" href="#aufgabenstellung" aria-hidden="true"><span class="octicon octicon-link"></span></a>Aufgabenstellung</h1>
 
@@ -90,9 +100,104 @@
 </tr>
 </tbody>
 </table>
-      </section>
-    </div>
 
+<h1>
+<a id="verwendete-ontoglogien" class="anchor" href="#verwendete-ontoglogien" aria-hidden="true"><span class="octicon octicon-link"></span></a>Verwendete Ontoglogien</h1>
+
+<table>
+<thead>
+<tr>
+<th>Kürzel</th>
+<th>Name</th>
+<th>Typ</th>
+<th>Ausdrucksstärke</th>
+<th>#Axiome</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>GFO</td>
+<td>General Formal Ontology</td>
+<td>Upper Level Ont.</td>
+<td>SHIN</td>
+<td>524</td>
+</tr>
+<tr>
+<td>BT</td>
+<td>BioTop</td>
+<td>Upper Level Ont.</td>
+<td>SRI</td>
+<td>2322</td>
+</tr>
+<tr>
+<td>BFO</td>
+<td>Basic Formal Ontology</td>
+<td>Upper Level Ont.</td>
+<td>SRIQ</td>
+<td>1684</td>
+</tr>
+<tr>
+<td>BSPO</td>
+<td>Biological Spatial Ontology</td>
+<td>Upper Level Ont.</td>
+<td>ALERI+</td>
+<td>1874</td>
+</tr>
+<tr>
+<td>GO</td>
+<td>Gene Ontology (+ BFO + RO)</td>
+<td>Domain Ont.</td>
+<td>SRI</td>
+<td>523951</td>
+</tr>
+<tr>
+<td>MA</td>
+<td>Mouse Adult Gross Anatomy Ontology</td>
+<td>Domain Ont.</td>
+<td>ALE+</td>
+<td>19527</td>
+</tr>
+<tr>
+<td>CL</td>
+<td>Cell Ontology (+ ChEBI + CLO + GO + NCBITaxon + PATO + PR + RO + UBERON)</td>
+<td>Domain Ont.</td>
+<td>SRI</td>
+<td>37420</td>
+</tr>
+<tr>
+<td>UBERON</td>
+<td>Uber Anatomy Ontology (+ BFO + BSPO + RO)</td>
+<td>Domain Ont.</td>
+<td>SRIQ</td>
+<td>223367</td>
+</tr>
+<tr>
+<td>ChEBI</td>
+<td>Chemical Entities of Biological Interest Ontology</td>
+<td>Domain Ont.</td>
+<td>ALE+</td>
+<td>956246</td>
+</tr>
+<tr>
+<td>DOID</td>
+<td>Human Disease Ontology</td>
+<td>Domain Ont.</td>
+<td>AL</td>
+<td>108410</td>
+</tr>
+<tr>
+<td>HP</td>
+<td>Human Phenotype Ontology (+ ChEBI + DOID + GO + HSAPDV + MPATH + NBO + PATO + PR + RO + UBERON)</td>
+<td>Domain Ont.</td>
+<td>SRI</td>
+<td>205151</td>
+</tr>
+</tbody>
+</table>
+      </section>
+
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
     
   </body>
 </html>
