@@ -207,6 +207,8 @@
 <h1>
 <a id="konfiguration-der-reasoner" class="anchor" href="#konfiguration-der-reasoner" aria-hidden="true"><span class="octicon octicon-link"></span></a>Konfiguration der Reasoner</h1>
 
+<p>Die genutzten Reasoner mit ihren Konfigurationen sind alle im <a href="https://github.com/OSwoboda/owlreasonercomparison/tree/master/data/reasoners">Repository</a> zu finden.</p>
+
 <h2>
 <a id="hermit" class="anchor" href="#hermit" aria-hidden="true"><span class="octicon octicon-link"></span></a>HermiT</h2>
 
@@ -228,13 +230,25 @@ Zunächst haben wir uns die <a href="https://code.google.com/p/elk-reasoner/down
 
 <p>Bei Pellet gab es einige Schwierigkeiten, da es keine fertigen Binaries zum Download gab. Aus diesem Grund mussten wir diese selbst aus den <a href="https://github.com/Complexible/pellet/releases/tag/2.3.1">Sourcecode</a> erstellen. Allerdings gab es hierbei ein Problem mit Java 8, welches nach einer <a href="https://github.com/Complexible/pellet/pull/15/files">gründlichen Recherche</a> behoben werden konnte. Nach dem Erstellen einer ausführbaren Version des Reasoners lief der Rest genauso, wie beim ELK Reasoner ab: Eine Konfiguration wurde erstellt und dem Wrapper die neuen Bibliotheken bekannt gemacht.</p>
 
+<h2>
+<a id="konclude" class="anchor" href="#konclude" aria-hidden="true"><span class="octicon octicon-link"></span></a>Konclude</h2>
+
+<p>Auch wenn wir eine Umsetzung des Konclude Reasoners für das ORE2014 Framework finden konnten, so gab uns dieser jedoch für jegliche Konfiguration und für jegliche Variante an Ontologieformat, nur Parsingfehler aus. Aus diesem Grund haben wir diesen Reasoner aus der Übersicht und aus den Ergebnissen entfernen müssen.</p>
+
 <h1>
 <a id="einbau-der-ontologien" class="anchor" href="#einbau-der-ontologien" aria-hidden="true"><span class="octicon octicon-link"></span></a>Einbau der Ontologien</h1>
 
-<p>Mit den meisten Ontologien haben wir keine Probleme gehabt, sie wurden vom Framework mit Hilfe der Skripte, die wir im <a href="https://zenodo.org/record/11133#.VZqR6rxalDs">ORE 2014 Live Competition Queries package</a> finden konnten, geparst, aufgrund ihrer Ausdrucksstärke in die Kategorien EL oder DL eingeteilt. Dabei wurden auch die für den Wettbewerb relevanten Queries erstellt. Nach ein paar manuellen Anpassungen von BFO, CL, UBERON und HP, waren auch diese lauffähig und konnten von den Reasonern bearbeitet werden. Diese hatte das Framework zunächst nicht als Valide anerkennen können.</p>
+<p>Mit den meisten Ontologien haben wir keine Probleme gehabt, sie wurden vom Framework mit Hilfe eines <a href="https://github.com/OSwoboda/owlreasonercomparison/blob/master/ore2014-scripts/create-ore2014-queries.sh">Skripts</a>, welches wir im <a href="https://zenodo.org/record/11133#.VZqR6rxalDs">ORE 2014 Live Competition Queries package</a> finden konnten, geparst, aufgrund ihrer Ausdrucksstärke in die Kategorien EL oder DL eingeteilt. Dabei wurden auch die, für den jeweiligen Wettbewerb relevanten, Queries erstellt. Nach ein paar manuellen Anpassungen von BFO, CL, UBERON und HP, waren auch diese lauffähig und konnten von den Reasonern bearbeitet werden. Diese hatte das Framework zunächst nicht als Valide anerkennen können.</p>
 
 <h1>
 <a id="ausführung" class="anchor" href="#ausf%C3%BChrung" aria-hidden="true"><span class="octicon octicon-link"></span></a>Ausführung</h1>
+
+<p>Zum Ausführen der verschiedenen <a href="https://github.com/OSwoboda/owlreasonercomparison/tree/master/data/competitions">Wettbewerbe</a>, haben wir uns ein weiteres <a href="https://github.com/OSwoboda/owlreasonercomparison/blob/master/ore2014-scripts/evaluate-ore2014-competition.sh">Skript</a> zu nutze gemacht, welches wir an zuvor erwähnter Stelle vorgefunden hatten. Die Ausführung hat eine ganze Weile gedauert und eventuell hätten einige Reasoner mit ein wenig mehr Arbeitsspeicher, auch Ergenisse liefern können und hätten nicht die vorgegeben Zeit von 5 Minuten überschritten. Diese Zeitschranke wurde im Verlauf verschiedene Tests bereits von 3 Minuten angehoben, da es zu viele Zeitüberschreitungen gab. Wir hatten zwar nur 5GB Arbeitsspeicher zu Verfügung, aber die meisten Reasoner konnten damit Ergebnisse liefern.</p>
+
+<h1>
+<a id="ergebnisse" class="anchor" href="#ergebnisse" aria-hidden="true"><span class="octicon octicon-link"></span></a>Ergebnisse</h1>
+
+<p>Die vom Framework ausgegeben Ergebnisse sind sowohl dem <a href="https://github.com/OSwoboda/owlreasonercomparison/tree/master/data/responses/competition-evaluations">Repository</a>, als auch unserer Präsentation (folgt) zu entnehmen.</p>
       </section>
 
     </div>
