@@ -1,0 +1,10 @@
+Started consistency on /home/oswoboda/Dokumente/SemanticWeb/framework/data/ontologies/ore2014/bfo.owl
+Lsig
+extracting Lsignature for lightweight logic ELK
+size of lSignature: 2
+size of compSignature: 113
+	(only counting non-internal classes)
+size of compModule: 352
+size of whole ontology: 352
+Operation time: 1031
+Completed consistency on /home/oswoboda/Dokumente/SemanticWeb/framework/data/ontologies/ore2014/bfo.owl

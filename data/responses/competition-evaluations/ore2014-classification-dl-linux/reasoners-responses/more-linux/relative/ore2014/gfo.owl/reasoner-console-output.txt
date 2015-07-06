@@ -1,0 +1,10 @@
+Started classification on /home/oswoboda/Dokumente/SemanticWeb/framework/data/ontologies/ore2014/gfo.owl
+Lsig
+extracting Lsignature for lightweight logic ELK
+size of lSignature: 1
+size of compSignature: 144
+	(only counting non-internal classes)
+size of compModule: 321
+size of whole ontology: 322
+Operation time: 1118
+Completed classification on /home/oswoboda/Dokumente/SemanticWeb/framework/data/ontologies/ore2014/gfo.owl

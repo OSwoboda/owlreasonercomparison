@@ -1,0 +1,22 @@
+Started consistency on /home/oswoboda/Dokumente/SemanticWeb/framework/data/ontologies/ore2014/doid.owl
+0     [main] INFO  org.semanticweb.elk.reasoner.Reasoner  - ELK reasoner was created
+497   [main] INFO  org.semanticweb.elk.reasoner.stages.LoggingStageExecutor  - Loading of Axioms started
+502   [main] INFO  org.semanticweb.elk.reasoner.stages.AbstractReasonerStage  - Loading of Axioms using 4 workers
+502   [main] INFO  org.semanticweb.elk.reasoner.stages.LoggingStageExecutor  - Loading of Axioms finished in 0 ms
+502   [main] INFO  org.semanticweb.elk.reasoner.stages.LoggingStageExecutor  - Property Saturation Initialization started
+503   [main] INFO  org.semanticweb.elk.reasoner.stages.AbstractReasonerStage  - Property Saturation Initialization using 4 workers
+503   [main] INFO  org.semanticweb.elk.reasoner.stages.LoggingStageExecutor  - Property Saturation Initialization finished in 1 ms
+504   [main] INFO  org.semanticweb.elk.reasoner.stages.LoggingStageExecutor  - Reflexive Property Computation started
+510   [main] INFO  org.semanticweb.elk.reasoner.stages.AbstractReasonerStage  - Reflexive Property Computation using 4 workers
+515   [main] INFO  org.semanticweb.elk.reasoner.stages.LoggingStageExecutor  - Reflexive Property Computation finished in 11 ms
+515   [main] INFO  org.semanticweb.elk.reasoner.stages.LoggingStageExecutor  - Object Property Hierarchy and Composition Computation started
+517   [main] INFO  org.semanticweb.elk.reasoner.stages.AbstractReasonerStage  - Object Property Hierarchy and Composition Computation using 4 workers
+519   [main] INFO  org.semanticweb.elk.reasoner.stages.LoggingStageExecutor  - Object Property Hierarchy and Composition Computation finished in 3 ms
+519   [main] INFO  org.semanticweb.elk.reasoner.stages.LoggingStageExecutor  - Context Initialization started
+519   [main] INFO  org.semanticweb.elk.reasoner.stages.AbstractReasonerStage  - Context Initialization using 4 workers
+520   [main] INFO  org.semanticweb.elk.reasoner.stages.LoggingStageExecutor  - Context Initialization finished in 0 ms
+522   [main] INFO  org.semanticweb.elk.reasoner.stages.LoggingStageExecutor  - Consistency Checking started
+525   [main] INFO  org.semanticweb.elk.reasoner.stages.AbstractReasonerStage  - Consistency Checking using 4 workers
+531   [main] INFO  org.semanticweb.elk.reasoner.stages.LoggingStageExecutor  - Consistency Checking finished in 9 ms
+Operation time: 731
+Completed consistency on /home/oswoboda/Dokumente/SemanticWeb/framework/data/ontologies/ore2014/doid.owl

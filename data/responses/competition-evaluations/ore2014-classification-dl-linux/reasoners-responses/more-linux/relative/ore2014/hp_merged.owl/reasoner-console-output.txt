@@ -1,0 +1,8 @@
+Started classification on /home/oswoboda/Dokumente/SemanticWeb/framework/data/ontologies/ore2014/hp_merged.owl
+Lsig
+extracting Lsignature for lightweight logic ELK
+size of lSignature: 16039
+size of compSignature: 12806
+	(only counting non-internal classes)
+size of compModule: 28820
+size of whole ontology: 48319

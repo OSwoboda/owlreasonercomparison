@@ -1,0 +1,1718 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://org.semanticweb.ore/normalised-result-comparision-ontology"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://org.semanticweb.ore/normalised-result-comparision-ontology">
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <EquivalentClasses>
+        <Class IRI="http://purl.org/biotop/biotop.owl#PortionOfHeterogenousLiquid"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#PortionOfHeterogenousSolid"/>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#AcquiredAbnormalStructure"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#PathologicalStructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#AcquiredPathologicalCondition"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#PathologicalValueRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#AcquiredPathologicalStaticProcessualEntity"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#PathologicalStaticProcessualEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Action"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#ActionOnBiologicalSystem"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Action"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#AdultOrganism"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#OrganismByDevelopmentalStagePartition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#AdultValueRegion"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#DevelopmentalValueRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Affecting"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Action"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#AgeQuality"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#ObjectQuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Alga"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Eukaryote"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#AlphaParticle"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#AminoAcidMoleculeOrResidue"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#AminoAcidOrPeptideMoleculeOrStructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#AminoAcidMoleculeOrResidue"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Monomer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#AminoAcidOrPeptideMoleculeOrStructure"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#OrganicMolecularEntityPartition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#AminoAcidSequence"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#BioMolecularSequenceStructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#AminoAcidSequence"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#PeptideStructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#AminoAcidSequenceInformation"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#DEPRECATED"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#AmountOfBodySubstance"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#CompoundOfCollectiveMaterialEntities"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#AmountOfPureSubstance"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#CollectiveMaterialEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Amphibian"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#AnimalExcludingHuman"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Amphibian"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Vertebrate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Analyzing"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#HumanAction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#AnimalCell"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#CellByTaxonPartition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#AnimalExcludingHuman"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#AnimalIncludingHuman"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#AnimalIncludingHuman"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Eukaryote"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#AnimalLanguage"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#LanguagePartition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#AnimalPopulation"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#EukaryotePopulation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#AntibioticRole"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#DrugRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#ArchaebacterialCell"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Prokaryote"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#ArtefactRole"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Arthropod"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Invertebrate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#ArthropodPopulation"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#AnimalPopulation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Atom"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#MaterialEntityBySizePartition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#BacteriaPopulation"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Population"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#BacterialCell"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#CellByTaxonPartition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#BacterialCell"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Prokaryote"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#BacterialCell"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#UnicellularOrganism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#BacterialColony"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#BiologicalColony"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#BakersYeastCell"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#YeastCell"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#BakersYeastPopulation"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#YeastPopulation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Behavior"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Action"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#BioMolecularProcess"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#BiologicalProcessualEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#BioMolecularSequenceInformation"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#DEPRECATED"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#BioMolecularSequenceStructure"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#OrganicMolecularEntityPartition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#BiologicalAction"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Action"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#BiologicalBoundary"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#TwoDimensionalBoundary"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#BiologicalColony"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#PluralityOfOrganisms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#BiologicalFunction"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Function"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#BiologicalLife"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#OrganismProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#BiologicalProcessualEntity"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#BiologicalSize"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#ObjectQuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#BiologicalSizeValueRegion"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#ValueRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#BiologicalSpace"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#ImmaterialThreeDimensionalPhysicalEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#BiologicalSystemRole"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#BiomedicalMaterialRole"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#TherapeuticRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Biomolecule"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#MonoMolecularEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Bird"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#AnimalExcludingHuman"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Bird"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Vertebrate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Body"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#StructuredBiologicalEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#BodyLiquid"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#PortionOfHeterogenousSolid"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#BodySystem"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#OrganismPart"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#CandidaAlbicansCell"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#YeastCell"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#CandidaAlbicansPopulation"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#YeastPopulation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#CanonicalProcessualEntity"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#CanonicalStaticProcessualEntity"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#CanonicalProcessualEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#CanonicalStaticProcessualEntity"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#StaticProcessualEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#CanonicalValueRegion"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#CanonicityValueRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Canonicity"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#CanonicityValueRegion"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#ValueRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#CarbohydrateMoleculeOrResidue"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#OrganicMolecularEntityPartition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#CarbohydrateMonomer"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#CarbohydrateMoleculeOrResidue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#CarbohydrateMonomer"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Monomer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#CarbohydrateSequenceInformation"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#DEPRECATED"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#CatalyticRole"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#ChemicalRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#CategorizationSystem"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#IntellectualProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Causing"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Affecting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Cell"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#StructuredBiologicalCompoundByGranularityPartition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#CellByLocusPartition"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Cell"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#CellByTaxonPartition"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Cell"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#CellByTypePartition"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Cell"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#CellInVivo"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#CellByLocusPartition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#CellMembrane"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#CellularComponent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#CellNucleus"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#CellularComponent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#CellularComponent"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#StructuredBiologicalCompoundByGranularityPartition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#CentralNervousSystem"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#OrganSystem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#ChainOfCarbohydrateMonomers"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#BioMolecularSequenceStructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#ChainOfCarbohydrateMonomers"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#CarbohydrateMoleculeOrResidue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#ChainOfNucleotideMonomers"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#BioMolecularSequenceStructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#ChainOfNucleotideMonomers"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#NucleicAcidStructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#ChemicalRole"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#ChildRole"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#FamilyRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#ChlamydiaCell"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Prokaryote"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Chromosome"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#MoleculeComplex"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#ClassGammaProteobacteriaValueRegion"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#PhylumProteobacteriaValueRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#ClassInsectaValueRegion"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#PhylumArthropodaValueRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#ClassMammaliaValueRegion"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#SubphylumVertebrataValueRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#ClassSaccharomycetesValueRegion"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#SubphylumSaccharomycotinaValueRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#CollectiveMaterialEntity"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#MaterialObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Complicating"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Affecting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#CompoundOfCollectiveMaterialEntities"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#MaterialObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Condition"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Particular"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#CongenitalAbnormalStructure"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#PathologicalStructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#CongenitalPathologicalCondition"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#PathologicalValueRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#CongenitalPathologicalStaticProcessualEntity"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#PathologicalStaticProcessualEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Cytoplasm"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#CellularComponent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#DEPRECATED"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#DNAChain"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#ChainOfNucleotideMonomers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#DeadBody"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Body"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Death"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#BiologicalProcessualEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Death"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#InstantaneousProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#DevelopmentalQuality"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#ObjectQuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#DevelopmentalValueRegion"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#ValueRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#DigitalEntity"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#InformationObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Disposition"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Condition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Disrupting"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Affecting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#DrugRole"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#TherapeuticRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#EducatorRole"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#OccupationalRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Eicosanoid"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#LipidMoleculeOrResidue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Electron"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#SubatomicEntityByChargePartition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#EmbryonicOrganism"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#EmbryonicStructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#EmbryonicOrganism"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#OrganismByDevelopmentalStagePartition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#EmbryonicStructure"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#StructuredBiologicalEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#EmbryonicValueRegion"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#DevelopmentalValueRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#EntireCarbohydrateMonomer"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#CarbohydrateMonomer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#EntireCarbohydrateMonomer"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#EntireMolecularEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#EntireMolecularEntity"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#MolecularEntityByEntiretyPartition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#EntireNucleicAcidMolecule"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#EntireMolecularEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#EntireNucleicAcidMolecule"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#NucleicAcidStructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#EntireProteinMolecule"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#EntireMolecularEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#EntireProteinMolecule"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#PeptideStructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#EnzymeRole"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#CatalyticRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#EpithelialCell"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#CellByTypePartition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#EscherichiaColiCell"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#BacterialCell"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#EscherichiaColiPopulation"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#BacteriaPopulation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Eukaryote"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#OrganismByTaxonPartition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#EukaryotePopulation"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Population"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Event"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#DEPRECATED"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#ExaminationResultRole"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#FindingRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#FamilyDrosophilidaeValueRegion"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#OrderDipteraValueRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#FamilyEnterobacteriaceaeaValueRegion"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#OrderEnterobacterialesValueRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#FamilyHominidaeValueRegion"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#OrderPrimatesValueRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#FamilyOfIndividualOrganisms"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#DEPRECATED"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#FamilyRole"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#FamilySaccharomycetaceaeValueRegion"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#OrderSaccharomycetalesValueRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#FattyAcidMoleculeOrResidue"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#OrganicMolecularEntityPartition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#FindingRole"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#HealthRelatedRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Fish"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#AnimalExcludingHuman"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Fish"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Vertebrate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#FoodRole"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#HealthRelatedRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#FruitFly"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Insect"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#FruitFlyPopulation"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#InsectPopulation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Function"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Disposition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Fungus"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Eukaryote"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#FungusPopulation"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#EukaryotePopulation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#GaseousValueRegion"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#StateOfMatterValueRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Gene"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#NucleicAcidStructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#GeneInformation"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#DEPRECATED"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#GeneRegion"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#DEPRECATED"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#GeneticInformation"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#InformationObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Genome"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#CellularComponent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#GenomeInformation"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#DEPRECATED"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#GenusCandidaValueRegion"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#FamilySaccharomycetaceaeValueRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#GenusDrosophilaValueRegion"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#SubfamilyDrosophilinaeValueRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#GenusEscherichiaValueRegion"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#FamilyEnterobacteriaceaeaValueRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#GenusHomoValueRegion"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#FamilyHominidaeValueRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#GenusSaccharomycesValueRegion"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#FamilySaccharomycetaceaeValueRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#GeographicSurface"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#TwoDimensionalPhysicalEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Government"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Organization"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#GreatApe"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Mammal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#GreatApePopulation"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#MammalPopulation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#GroupInteraction"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Interacting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#GrowingProcess"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#TissueProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#HealthProfessionalRole"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#OccupationalRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#HealthRelatedRole"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#HeterocyclicBaseMoleculeOrResidue"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#OrganicMolecularEntityPartition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#HormoneRole"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#SignallingRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Human"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Primate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#HumanAction"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#OrganismAction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#HumanEpithelialCell"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#EpithelialCell"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#HumanLanguage"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#LanguagePartition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#HumanPopulation"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#PrimatePopulation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#HumanReasoning"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#HumanAction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#HumanReasoning"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#ImmaterialProcessualEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Hurting"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#ActionOnBiologicalSystem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#ImmaterialNonphysicalEntity"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#DEPRECATED"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#ImmaterialObject"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Particular"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#ImmaterialPhysicalEntity"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#DEPRECATED"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#ImmaterialProcessualEntity"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#ImmaterialThreeDimensionalPhysicalEntity"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#ImmaterialObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#ImmunologicRole"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#BiologicalSystemRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Indicating"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Affecting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#IndicatorRole"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#ChemicalRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#IndividualBehavior"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Behavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#IndividualBehavior"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#OrganismAction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#InformationEntity"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#DEPRECATED"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#InformationObject"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Particular"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#InorganicMolecularEntity"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#MolecularEntityByOrganicInorganicPartition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Insect"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Arthropod"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#InsectPopulation"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#ArthropodPopulation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#InstantaneousProcess"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#IntellectualProduct"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#InformationObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Interacting"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Affecting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#IntraCellularProcess"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#BiologicalProcessualEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Invertebrate"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#AnimalExcludingHuman"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#JuvenileOrganism"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#OrganismByDevelopmentalStagePartition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#JuvenileValueRegion"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#DevelopmentalValueRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#KingdomAnimaliaValueRegion"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#TaxonValueRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#KingdomArchaeaValueRegion"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#TaxonValueRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#KingdomBacteriaValueRegion"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#TaxonValueRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#KingdomChromistaValueRegion"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#TaxonValueRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#KingdomFungiValueRegion"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#TaxonValueRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#KingdomPlantaeValueRegion"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#TaxonValueRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#KingdomProtozoaValueRegion"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#TaxonValueRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#KingdomVirusesValueRegion"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#TaxonValueRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Language"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#InformationObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#LanguagePartition"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Language"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#LegalEntity"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#InformationObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#LipidMoleculeOrResidue"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#OrganicMolecularEntityPartition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#LiquidValueRegion"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#StateOfMatterValueRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#LivingBody"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Body"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#LivingOrganism"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#StructuredBiologicalEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#MachineAction"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Action"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#MachineLanguage"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#LanguagePartition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#MacroscopicValueRegion"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#BiologicalSizeValueRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Mammal"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Vertebrate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#MammalPopulation"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#VertebratePopulation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#ManagingCare"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Affecting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#MaterialEntity"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#DEPRECATED"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#MaterialEntityBySizePartition"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#MaterialObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#MaterialObject"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Condition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Measure"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#InformationObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#MeasurementMethod"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Plan"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#MeasuringAction"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Action"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Membership"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Action"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Membership"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#ImmaterialProcessualEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#MentalFunction"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#BiologicalFunction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#MentalProcess"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#OrganismProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Microorganism"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#LivingOrganism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#MicroscopicValueRegion"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#BiologicalSizeValueRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Mind"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#DEPRECATED"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#ModifiedCell"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#CellByLocusPartition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#MolecularEntityByEntiretyPartition"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#MonoMolecularEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#MolecularEntityByGranularityPartition"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#MonoMolecularEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#MolecularEntityByOrganicInorganicPartition"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#MonoMolecularEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#MolecularFunction"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Function"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#MolecularResidue"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#MolecularEntityByEntiretyPartition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#MoleculeComplex"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#PolyMolecularCompositeEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#MonoMolecularEntity"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#MaterialEntityBySizePartition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Monomer"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#MolecularEntityByGranularityPartition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#MulticellularOrganism"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#LivingOrganism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#NeoplasticProcess"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#GrowingProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#NeoplasticProcess"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#PathologicalProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#NeuroreactiveRole"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#SignallingRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Neutron"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#SubatomicEntityByChargePartition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#NonSteroidLipid"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#LipidMoleculeOrResidue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#NoncanonicalProcessualEntity"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#NoncanonicalStaticProcessualEntity"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#NoncanonicalProcessualEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#NoncanonicalStaticProcessualEntity"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#StaticProcessualEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#NoncanonicalValueRegion"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#CanonicityValueRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#NucleicAcidNucleotideOrNucleosideMoleculeOrResidue"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#OrganicMolecularEntityPartition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#NucleicAcidRegion"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#DEPRECATED"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#NucleicAcidStructure"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#NucleicAcidNucleotideOrNucleosideMoleculeOrResidue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#NucleosideMolecule"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#NucleicAcidNucleotideOrNucleosideMoleculeOrResidue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#NucleotideMolecule"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#NucleicAcidNucleotideOrNucleosideMoleculeOrResidue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#NucleotideSequenceInformation"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#DEPRECATED"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#NurseRole"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#HealthProfessionalRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#ObjectQuality"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#ObservingAction"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Action"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#OccupationalRole"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#OligoOrPolymer"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#MolecularEntityByGranularityPartition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#OneDimensionalBoundary"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#OneDimensionalPhysicalEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#OneDimensionalBoundary"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#PhysicalBoundary"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#OneDimensionalPhysicalEntity"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#ImmaterialObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#OrderDipteraValueRegion"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#ClassInsectaValueRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#OrderEnterobacterialesValueRegion"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#ClassGammaProteobacteriaValueRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#OrderPrimatesValueRegion"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#ClassMammaliaValueRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#OrderSaccharomycetalesValueRegion"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#ClassSaccharomycetesValueRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Organ"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#OrganismPart"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#OrganPart"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#OrganismPart"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#OrganSystem"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#BodySystem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#OrganSystemPart"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#BodySystem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#OrganicMolecularEntity"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#MolecularEntityByOrganicInorganicPartition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#OrganicMolecularEntityPartition"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#OrganicMolecularEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#OrganismAction"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#BiologicalAction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#OrganismByDevelopmentalStagePartition"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#LivingOrganism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#OrganismByTaxonPartition"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#LivingOrganism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#OrganismInteraction"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Interacting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#OrganismInteraction"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#OrganismAction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#OrganismPart"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#StructuredBiologicalCompoundByGranularityPartition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#OrganismProcess"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#BiologicalProcessualEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Organization"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#LegalEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#ParentRole"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#FamilyRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Particular"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#ParticularEntity"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#DEPRECATED"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#PathologicalCondition"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Condition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#PathologicalDisposition"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Disposition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#PathologicalDisposition"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#PathologicalCondition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#PathologicalProcess"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#BiologicalProcessualEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#PathologicalProcess"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#NoncanonicalProcessualEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#PathologicalProcess"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#PathologicalCondition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#PathologicalStaticProcessualEntity"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#NoncanonicalStaticProcessualEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#PathologicalStructure"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#PathologicalCondition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#PathologicalStructure"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#StructuredBiologicalCompoundByCanonicityPartition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#PathologicalValueRegion"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#NoncanonicalValueRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#PeptideFunction"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#MolecularFunction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#PeptideStructure"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#AminoAcidOrPeptideMoleculeOrStructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Phosphate"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#InorganicMolecularEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#PhylumArthropodaValueRegion"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#KingdomAnimaliaValueRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#PhylumAscomycotaValueRegion"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#KingdomFungiValueRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#PhylumChordataValueRegion"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#KingdomAnimaliaValueRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#PhylumProteobacteriaValueRegion"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#KingdomBacteriaValueRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#PhysicalBoundary"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#ImmaterialObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#PhysicalForce"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#ProcessQuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#PhysicalLength"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#ObjectQuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#PhysicalMass"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#ObjectQuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#PhysicalProcessualEntity"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#PhysicalState"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#ObjectQuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#PhysicalVolume"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#ObjectQuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#PhysicianRole"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#HealthProfessionalRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Plan"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#InformationObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Plant"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Eukaryote"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#PlantCell"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#CellByTaxonPartition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#PlantPopulation"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#EukaryotePopulation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#PluralityOfIdenticalPolymolecularEntities"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#CollectiveMaterialEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#PluralityOfOrganisms"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#CollectiveMaterialEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#PointInTime"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Time"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#PoisonRole"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#HealthRelatedRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Poisoning"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#ActionOnBiologicalSystem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#PolyMolecularCompositeEntity"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#MaterialEntityBySizePartition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Population"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#PluralityOfOrganisms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#PortionOfHeterogenousSolid"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#CompoundOfCollectiveMaterialEntities"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#PortionOfHomogenousMatter"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#DEPRECATED"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#PreventionAction"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Action"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#PreventiveRole"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#HealthRelatedRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Primate"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#GreatApe"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#PrimatePopulation"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#GreatApePopulation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Process"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Condition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#ProcessQuality"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Producing"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Affecting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Prokaryote"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Microorganism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Prokaryote"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#OrganismByTaxonPartition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#ProteinComplex"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#MoleculeComplex"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#ProteinDomain"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#PeptideStructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#ProteinSubstructure"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#PeptideStructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#ProteinSubunit"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#EntireProteinMolecule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Protist"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Eukaryote"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Protist"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Microorganism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#ProtistPopulation"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#EukaryotePopulation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Proton"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#SubatomicEntityByChargePartition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Quality"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Particular"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#RNAChain"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#ChainOfNucleotideMonomers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Radiation"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#PhysicalProcessualEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#ReagentRole"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#ChemicalRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#ReceptorRole"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#SignallingRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#RegulationOrLaw"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#IntellectualProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#RegulatoryBody"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Organization"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Reptile"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#AnimalExcludingHuman"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Reptile"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Vertebrate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#ResearcherRole"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#OccupationalRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#RickettsiaCell"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Prokaryote"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Role"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Particular"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#SiblingRole"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#FamilyRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#SignOrSymptomRole"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#FindingRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#SignallingRole"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#BiologicalSystemRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#SocialAction"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Action"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#SocialBehavior"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Behavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#SocialBehavior"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#OrganismAction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#SolidValueRegion"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#StateOfMatterValueRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#SpatialReferenceRole"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#SpatialRegion"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#ImmaterialThreeDimensionalPhysicalEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#SpeciesCandidaAlbicansValueRegion"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#GenusCandidaValueRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#SpeciesDrosophilaMelanogasterValueRegion"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#GenusDrosophilaValueRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#SpeciesEscherichiaColiValueRegion"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#GenusEscherichiaValueRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#SpeciesHomoSapiensValueRegion"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#GenusHomoValueRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#SpeciesSaccharomycesCerevisiaeValueRegion"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#GenusSaccharomycesValueRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#StateOfMatter"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#ObjectQuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#StateOfMatterValueRegion"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#ValueRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#StaticProcessualEntity"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Steroid"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#LipidMoleculeOrResidue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#StructuredBiologicalCompoundByCanonicityPartition"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#StructuredBiologicalEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#StructuredBiologicalCompoundByGranularityPartition"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#StructuredBiologicalEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#StructuredBiologicalEntity"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#PolyMolecularCompositeEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#StructuredNonbiologicalCompound"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#PolyMolecularCompositeEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#SubatomicEntityByChargePartition"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#SubatomicParticle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#SubatomicParticle"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#MaterialEntityBySizePartition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#SubfamilyDrosophilinaeValueRegion"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#FamilyDrosophilidaeValueRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#SubjectOfCareRole"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#HealthRelatedRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#SubmolecularGroup"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#MolecularEntityByGranularityPartition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#SubphylumSaccharomycotinaValueRegion"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#PhylumAscomycotaValueRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#SubphylumVertebrataValueRegion"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#PhylumChordataValueRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#SubstanceInteraction"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Interacting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Syncytium"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#StructuredBiologicalCompoundByGranularityPartition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#TaxonQuality"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#ObjectQuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#TaxonValueRegion"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#ValueRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#TemporalEntity"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#DEPRECATED"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#TherapeuticRole"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#HealthRelatedRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Time"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Particular"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#TimeInterval"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Time"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Tissue"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#PortionOfHeterogenousSolid"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#TissueProcess"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#BiologicalProcessualEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Treating"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Affecting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#TreatingCondition"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Treating"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#TreatingOrganism"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Treating"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#TwoDimensionalBiologicalEntity"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#TwoDimensionalPhysicalEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#TwoDimensionalBoundary"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#PhysicalBoundary"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#TwoDimensionalBoundary"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#TwoDimensionalPhysicalEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#TwoDimensionalPhysicalEntity"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#ImmaterialObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#UnicellularOrganism"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Cell"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#UnicellularOrganism"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#LivingOrganism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#UsingAction"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Action"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#ValueRegion"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Particular"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Vertebrate"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#AnimalIncludingHuman"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#VertebratePopulation"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#AnimalPopulation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Virus"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Microorganism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Virus"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#OrganismByTaxonPartition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#VirusPopulation"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Population"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#VitaminRole"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#BiologicalSystemRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#WaterMolecule"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#InorganicMolecularEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Wave"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#ImmaterialObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#WellFormedBiologicalStructure"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#StructuredBiologicalCompoundByCanonicityPartition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#YeastCell"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Fungus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#YeastCell"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#Microorganism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#YeastCell"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#StructuredBiologicalCompoundByGranularityPartition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/biotop/biotop.owl#YeastPopulation"/>
+        <Class IRI="http://purl.org/biotop/biotop.owl#FungusPopulation"/>
+    </SubClassOf>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.4.10-SNAPSHOT) http://owlapi.sourceforge.net -->
+

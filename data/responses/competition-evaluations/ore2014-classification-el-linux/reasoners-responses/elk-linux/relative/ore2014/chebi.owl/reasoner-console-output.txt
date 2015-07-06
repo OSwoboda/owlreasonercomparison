@@ -1,0 +1,25 @@
+Started classification on /home/oswoboda/Dokumente/SemanticWeb/framework/data/ontologies/ore2014/chebi.owl
+0     [main] INFO  org.semanticweb.elk.reasoner.Reasoner  - ELK reasoner was created
+1247  [main] INFO  org.semanticweb.elk.reasoner.stages.LoggingStageExecutor  - Loading of Axioms started
+1263  [main] INFO  org.semanticweb.elk.reasoner.stages.AbstractReasonerStage  - Loading of Axioms using 4 workers
+1263  [main] INFO  org.semanticweb.elk.reasoner.stages.LoggingStageExecutor  - Loading of Axioms finished in 0 ms
+1263  [main] INFO  org.semanticweb.elk.reasoner.stages.LoggingStageExecutor  - Property Saturation Initialization started
+1265  [main] INFO  org.semanticweb.elk.reasoner.stages.AbstractReasonerStage  - Property Saturation Initialization using 4 workers
+1265  [main] INFO  org.semanticweb.elk.reasoner.stages.LoggingStageExecutor  - Property Saturation Initialization finished in 1 ms
+1265  [main] INFO  org.semanticweb.elk.reasoner.stages.LoggingStageExecutor  - Reflexive Property Computation started
+1270  [main] INFO  org.semanticweb.elk.reasoner.stages.AbstractReasonerStage  - Reflexive Property Computation using 4 workers
+1275  [main] INFO  org.semanticweb.elk.reasoner.stages.LoggingStageExecutor  - Reflexive Property Computation finished in 9 ms
+1275  [main] INFO  org.semanticweb.elk.reasoner.stages.LoggingStageExecutor  - Object Property Hierarchy and Composition Computation started
+1277  [main] INFO  org.semanticweb.elk.reasoner.stages.AbstractReasonerStage  - Object Property Hierarchy and Composition Computation using 4 workers
+1287  [main] INFO  org.semanticweb.elk.reasoner.stages.LoggingStageExecutor  - Object Property Hierarchy and Composition Computation finished in 11 ms
+1287  [main] INFO  org.semanticweb.elk.reasoner.stages.LoggingStageExecutor  - Context Initialization started
+1288  [main] INFO  org.semanticweb.elk.reasoner.stages.AbstractReasonerStage  - Context Initialization using 4 workers
+1288  [main] INFO  org.semanticweb.elk.reasoner.stages.LoggingStageExecutor  - Context Initialization finished in 0 ms
+1290  [main] INFO  org.semanticweb.elk.reasoner.stages.LoggingStageExecutor  - Consistency Checking started
+1293  [main] INFO  org.semanticweb.elk.reasoner.stages.AbstractReasonerStage  - Consistency Checking using 4 workers
+1308  [main] INFO  org.semanticweb.elk.reasoner.stages.LoggingStageExecutor  - Consistency Checking finished in 17 ms
+1308  [main] INFO  org.semanticweb.elk.reasoner.stages.LoggingStageExecutor  - Class Taxonomy Computation started
+1331  [main] INFO  org.semanticweb.elk.reasoner.stages.AbstractReasonerStage  - Class Taxonomy Computation using 4 workers
+3435  [main] INFO  org.semanticweb.elk.reasoner.stages.LoggingStageExecutor  - Class Taxonomy Computation finished in 2126 ms
+Operation time: 4650
+Completed classification on /home/oswoboda/Dokumente/SemanticWeb/framework/data/ontologies/ore2014/chebi.owl

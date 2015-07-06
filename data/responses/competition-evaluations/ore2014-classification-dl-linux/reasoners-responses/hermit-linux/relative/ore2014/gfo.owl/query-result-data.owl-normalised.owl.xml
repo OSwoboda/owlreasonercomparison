@@ -1,0 +1,374 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://org.semanticweb.ore/normalised-result-comparision-ontology"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://org.semanticweb.ore/normalised-result-comparision-ontology">
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <EquivalentClasses>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Amount_of_substrate"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Mass_entity"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Continuous_change"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Intrinsic_change"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Extrinsic_change"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Instantanuous_change"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Material_object"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Material_structure"/>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Abstract"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Individual"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Action"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Occurrent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Awareness_level"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Level"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Biological_level"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Level"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Category"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Item"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Change"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Occurrent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Chemical_level"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Level"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Chronoid"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Temporal_region"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Concept"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Category"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Concrete"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Individual"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Configuration"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Presential"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Configuroid"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Continuous"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Individual"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Continuous_process"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Continuous"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Continuous_process"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Dependent"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Individual"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Discrete"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Individual"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Discrete_presential"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Discrete"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Discrete_presential"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Presential"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Discrete_process"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Discrete"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Discrete_process"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Entity"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Function"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Concept"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#History"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Occurrent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Independent"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Individual"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Individual"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Item"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Instantanuous_change"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Change"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Intrinsic_change"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Change"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Item"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Level"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Ontological_layer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Line"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Spatial_boundary"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Mass_entity"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Continuous"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Mass_entity"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Presential"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Material_boundary"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Dependent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Material_boundary"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Presential"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Material_line"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Material_boundary"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Material_persistant"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Persistant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Material_point"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Material_boundary"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Material_stratum"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Stratum"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Material_structure"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Discrete_presential"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Material_surface"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Material_boundary"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Mental_stratum"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Stratum"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Occurrent"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Concrete"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Ontological_layer"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Category"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Persistant"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Universal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Personality_level"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Level"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Physical_level"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Level"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Point"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Spatial_boundary"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Presential"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Concrete"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Process"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Occurrent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Processual_role"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Processual_role"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Property"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Concrete"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Property"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Dependent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Property_value"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Concrete"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Property_value"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Dependent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Relational_role"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Dependent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Relational_role"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Relator"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Individual"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Role"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Concrete"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Set"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Situation"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Configuration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Situoid"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Configuroid"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Social_role"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Independent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Social_role"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Social_stratum"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Stratum"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Space"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Space_time"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Space_time"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Individual"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Spatial_boundary"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Dependent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Spatial_boundary"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Space"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Spatial_region"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Space"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#State"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Stratum"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Ontological_layer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Surface"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Spatial_boundary"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Symbol"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Symbol_structure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Symbol_sequence"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Symbol_structure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Symbol_structure"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Category"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Temporal_region"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Time"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Time"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Space_time"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Time_boundary"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Dependent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Time_boundary"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Time"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Token"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Concrete"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Topoid"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Spatial_region"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Universal"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Category"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Value_space"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Universal"/>
+    </SubClassOf>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.4.10-SNAPSHOT) http://owlapi.sourceforge.net -->
+

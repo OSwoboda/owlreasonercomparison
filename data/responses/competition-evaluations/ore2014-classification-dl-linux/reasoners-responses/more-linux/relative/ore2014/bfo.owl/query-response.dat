@@ -1,0 +1,18 @@
+InterfaceType	OREv1
+ReportFile	RELATIVETOSOURCEDIRECTORY	query-response.dat
+ResultDataFile	RELATIVETOSOURCEDIRECTORY	query-result-data.owl
+ErrorFile	RELATIVETOSOURCEDIRECTORY	query-result-data.owl_err
+LogFile	RELATIVETOSOURCEDIRECTORY	reasoner-console-output.txt
+ExecutionTime	1856
+TimedOut	false
+ExecutionError	false
+ExecutionCompleted	true
+ReasonerQueryProcessingTime	1013
+ReasonerQueryStarted	true
+ReasonerQueryCompleted	true
+ReasonerConsoleOutputAvailable	true
+ReasonerErrorsAvailable	false
+ResultDataAvailable	true
+ReasonerOutputParsingError	false
+ExecutionStartTime	2015-07-02T05:40:53.742Z
+ExecutionEndTime	2015-07-02T05:40:55.598Z

@@ -1,0 +1,9 @@
+,Processed,Execution-Time,Reported-Processing-Time,Correctly-Processed,Correctly-Processed-Time,Timeout,Execution-Error,Reported-Error,Unexpected,Not-Processed
+ore2014/hp_merged.owl,true,7049,887,true,887,false,false,false,false,false
+ore2014/biotop.owl,true,593,52,true,52,false,false,false,false,false
+ore2014/cl_w_imports.owl,true,1557,155,true,155,false,false,false,false,false
+ore2014/uberon.owl,true,6224,615,true,615,false,false,false,false,false
+ore2014/gfo.owl,true,461,43,true,43,false,false,false,false,false
+ore2014/bfo.owl,true,612,49,true,49,false,false,false,false,false
+ore2014/go.owl,true,12354,1081,true,1081,false,false,false,false,false
+ore2014/bspo.owl,true,545,45,true,45,false,false,false,false,false

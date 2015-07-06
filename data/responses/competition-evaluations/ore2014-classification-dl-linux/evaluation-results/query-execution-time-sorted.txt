@@ -1,0 +1,8 @@
+classification/ore2014/dl/bspo.owl-classify.dat
+classification/ore2014/dl/bfo.owl-classify.dat
+classification/ore2014/dl/gfo.owl-classify.dat
+classification/ore2014/dl/biotop.owl-classify.dat
+classification/ore2014/dl/cl_w_imports.owl-classify.dat
+classification/ore2014/dl/go.owl-classify.dat
+classification/ore2014/dl/uberon.owl-classify.dat
+classification/ore2014/dl/hp_merged.owl-classify.dat

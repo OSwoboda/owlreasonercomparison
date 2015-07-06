@@ -1,0 +1,3 @@
+classification/ore2014/el/ma.owl-classify.dat
+classification/ore2014/el/doid.owl-classify.dat
+classification/ore2014/el/chebi.owl-classify.dat

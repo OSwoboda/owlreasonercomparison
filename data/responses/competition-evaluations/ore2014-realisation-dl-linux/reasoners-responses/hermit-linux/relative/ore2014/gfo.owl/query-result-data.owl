@@ -1,0 +1,13 @@
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<file:/home/oswoboda/Dokumente/SemanticWeb/framework/data/responses/competition-evaluations/ore2014-realisation-dl-linux/reasoners-responses/hermit-linux/relative/ore2014/gfo.owl/query-result-data.owl>
+
+ClassAssertion(<http://www.onto-med.de/ontologies/gfo.owl#Entity> <http://www.onto-med.de/ontologies/gfo.owl#empty_set>)
+ClassAssertion(<http://www.onto-med.de/ontologies/gfo.owl#Set> <http://www.onto-med.de/ontologies/gfo.owl#empty_set>)
+ClassAssertion(owl:Thing <http://www.onto-med.de/ontologies/gfo.owl#empty_set>)
+)

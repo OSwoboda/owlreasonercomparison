@@ -1,0 +1,9 @@
+	Processed	Execution-Time	Reported-Processing-Time	Correctly-Processed	Correctly-Processed-Time	Timeout	Execution-Error	Reported-Error	Unexpected	Not-Processed
+ore2014/hp_merged.owl	true	147111	141496	true	141496	false	false	false	false	false
+ore2014/biotop.owl	true	594	47	true	47	false	false	false	false	false
+ore2014/cl_w_imports.owl	true	2790	1418	true	1418	false	false	false	false	false
+ore2014/uberon.owl	true	41467	35994	true	35994	false	false	false	false	false
+ore2014/gfo.owl	true	440	31	true	31	false	false	false	false	false
+ore2014/bfo.owl	true	586	37	true	37	false	false	false	false	false
+ore2014/go.owl	true	145405	0	false	0	false	true	false	false	false
+ore2014/bspo.owl	true	542	50	true	50	false	false	false	false	false

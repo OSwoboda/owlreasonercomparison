@@ -1,0 +1,11 @@
+Started classification on /home/oswoboda/Dokumente/SemanticWeb/framework/data/ontologies/ore2014/cl_w_imports.owl
+Lsig
+extracting Lsignature for lightweight logic ELK
+empty lSignature due to axiom EquivalentClasses(ObjectComplementOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/GO_0005634>)) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/PATO_0001405>) )
+size of lSignature: 0
+size of compSignature: 4806
+	(only counting non-internal classes)
+size of compModule: 11449
+size of whole ontology: 11449
+Operation time: 23068
+Completed classification on /home/oswoboda/Dokumente/SemanticWeb/framework/data/ontologies/ore2014/cl_w_imports.owl

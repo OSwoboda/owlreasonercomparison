@@ -1,0 +1,10 @@
+Started classification on /home/oswoboda/Dokumente/SemanticWeb/framework/data/ontologies/ore2014/uberon.owl
+Lsig
+extracting Lsignature for lightweight logic ELK
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_1000002> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BSPO_0005001> <http://purl.obolibrary.org/obo/UBERON_0000033>))
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_1000002> <http://purl.obolibrary.org/obo/UBERON_0001444>)
+size of lSignature: 1114
+size of compSignature: 13259
+	(only counting non-internal classes)
+size of compModule: 44342
+size of whole ontology: 45380

@@ -1,0 +1,6 @@
+Reasoner	Rank	Correctly-Processed-Count	Correctly-Processed-Accumulated-Time	Correctly-Processed-Average-Time	Total-Processed-Count	Total-Execution-Accumulated-Time	Total-Execution-Average-Time	Timeout-Count	Execution-Error-Count	Reported-Error-Count	Unexpected-Count	Not-Processed-Count
+FaCT++	1	1	47	47.0	2	301608	150804.0	1	0	0	0	0
+Chainsaw	2	1	232	232.0	2	302042	151021.0	1	0	0	0	0
+MORe	3	1	286	286.0	2	7521	3760.5	0	0	0	1	0
+Pellet	4	1	300	300.0	2	301952	150976.0	1	0	0	0	0
+HermiT	5	1	344	344.0	2	301896	150948.0	1	0	0	0	0

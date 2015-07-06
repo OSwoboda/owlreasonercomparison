@@ -1,0 +1,3 @@
+	Processed	Execution-Time	Reported-Processing-Time	Correctly-Processed	Correctly-Processed-Time	Timeout	Execution-Error	Reported-Error	Unexpected	Not-Processed
+ore2014/uberon.owl	true	301087	0	false	0	true	false	false	false	false
+ore2014/gfo.owl	true	809	344	true	344	false	false	false	false	false

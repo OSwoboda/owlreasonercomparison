@@ -1,0 +1,1 @@
+Started classification on /home/oswoboda/Dokumente/SemanticWeb/framework/data/ontologies/ore2014/hp_merged.owl

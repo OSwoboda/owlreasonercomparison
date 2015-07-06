@@ -1,0 +1,10 @@
+Started classification on /home/oswoboda/Dokumente/SemanticWeb/framework/data/ontologies/ore2014/chebi.owl
+Lsig
+extracting Lsignature for lightweight logic ELK
+size of lSignature: 56288
+size of compSignature: 0
+	(only counting non-internal classes)
+size of compModule: 0
+size of whole ontology: 143963
+Operation time: 8362
+Completed classification on /home/oswoboda/Dokumente/SemanticWeb/framework/data/ontologies/ore2014/chebi.owl

@@ -1,0 +1,4 @@
+,Processed,Execution-Time,Reported-Processing-Time,Correctly-Processed,Correctly-Processed-Time,Timeout,Execution-Error,Reported-Error,Unexpected,Not-Processed
+ore2014/chebi.owl,true,35020,1393,true,1393,false,false,false,false,false
+ore2014/ma.owl,true,820,100,true,100,false,false,false,false,false
+ore2014/doid.owl,true,2905,133,true,133,false,false,false,false,false

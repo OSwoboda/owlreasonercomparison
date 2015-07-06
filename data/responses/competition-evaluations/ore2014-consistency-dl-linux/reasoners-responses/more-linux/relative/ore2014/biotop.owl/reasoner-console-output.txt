@@ -1,0 +1,10 @@
+Started consistency on /home/oswoboda/Dokumente/SemanticWeb/framework/data/ontologies/ore2014/biotop.owl
+Lsig
+extracting Lsignature for lightweight logic ELK
+size of lSignature: 31
+size of compSignature: 441
+	(only counting non-internal classes)
+size of compModule: 902
+size of whole ontology: 923
+Operation time: 76534
+Completed consistency on /home/oswoboda/Dokumente/SemanticWeb/framework/data/ontologies/ore2014/biotop.owl

@@ -1,0 +1,3 @@
+Started consistency on /home/oswoboda/Dokumente/SemanticWeb/framework/data/ontologies/ore2014/bspo.owl
+Operation time: 45
+Completed consistency on /home/oswoboda/Dokumente/SemanticWeb/framework/data/ontologies/ore2014/bspo.owl

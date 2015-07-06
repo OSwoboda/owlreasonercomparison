@@ -1,0 +1,6 @@
+Reasoner,Rank,Correctly-Processed-Count,Correctly-Processed-Accumulated-Time,Correctly-Processed-Average-Time,Total-Processed-Count,Total-Execution-Accumulated-Time,Total-Execution-Average-Time,Timeout-Count,Execution-Error-Count,Reported-Error-Count,Unexpected-Count,Not-Processed-Count
+Chainsaw,1,8,2927,365.875,8,29395,3674.375,0,0,0,0,0
+HermiT,2,8,16745,2093.125,8,43548,5443.5,0,0,0,0,0
+FaCT++,3,7,179073,25581.85714285714,8,338935,42366.875,0,1,0,0,0
+Pellet,4,7,214223,30603.285714285714,8,539913,67489.125,1,0,0,0,0
+MORe,5,6,231037,38506.166666666664,8,849053,106131.625,2,0,0,0,0

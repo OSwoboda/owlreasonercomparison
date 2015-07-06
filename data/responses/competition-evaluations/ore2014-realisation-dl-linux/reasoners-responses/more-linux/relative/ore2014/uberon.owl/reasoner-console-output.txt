@@ -1,0 +1,3 @@
+Started realisation on /home/oswoboda/Dokumente/SemanticWeb/framework/data/ontologies/ore2014/uberon.owl
+Operation time: 286
+Completed realisation on /home/oswoboda/Dokumente/SemanticWeb/framework/data/ontologies/ore2014/uberon.owl

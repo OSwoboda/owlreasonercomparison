@@ -1,0 +1,8 @@
+Reasoner	Rank	Correctly-Processed-Count	Correctly-Processed-Accumulated-Time	Correctly-Processed-Average-Time	Total-Processed-Count	Total-Execution-Accumulated-Time	Total-Execution-Average-Time	Timeout-Count	Execution-Error-Count	Reported-Error-Count	Unexpected-Count	Not-Processed-Count
+Chainsaw	7	0	0	NaN	0	0	NaN	0	0	0	0	0
+ELK	7	0	0	NaN	0	0	NaN	0	0	0	0	0
+FaCT++	7	0	0	NaN	0	0	NaN	0	0	0	0	0
+HermiT	7	0	0	NaN	0	0	NaN	0	0	0	0	0
+MORe	7	0	0	NaN	0	0	NaN	0	0	0	0	0
+Pellet	7	0	0	NaN	0	0	NaN	0	0	0	0	0
+TrOWL	7	0	0	NaN	0	0	NaN	0	0	0	0	0
