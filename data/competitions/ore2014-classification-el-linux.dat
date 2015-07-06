@@ -1,0 +1,19 @@
+# Competition file for the evaluation/testing framework.
+# Lines starting with '#' are interpreted as comments (like this line).
+# Each non-comment line starts with a key followed by one or more values. 
+# All values must be separated by tabs (i.e., by the character '	').
+
+CompetitionName	OWL EL Classification
+
+OutputPathName	ore2014-classification-el-linux
+
+#Reasoners	hermit-linux	chainsaw-linux	more-linux	elk-linux	pellet-linux	fact++-linux	trowl-linux
+
+Reasoners	konclude-linux
+
+QueryPathFilterString	classification/ore2014/el
+
+ExecutionTimeout	300000
+
+ProcessingTimeout	300000
+

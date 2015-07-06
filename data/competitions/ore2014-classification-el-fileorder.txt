@@ -1,0 +1,11 @@
+bfo.owl
+bspo.owl
+cl_w_imports.owl
+gfo.owl
+hp_merged.owl
+uberon.owl
+biotop.owl
+chebi.owl
+doid.owl
+go.owl
+ma.owl
