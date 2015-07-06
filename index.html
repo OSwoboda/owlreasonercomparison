@@ -227,6 +227,14 @@ Zunächst haben wir uns die <a href="https://code.google.com/p/elk-reasoner/down
 <a id="pellet" class="anchor" href="#pellet" aria-hidden="true"><span class="octicon octicon-link"></span></a>Pellet</h2>
 
 <p>Bei Pellet gab es einige Schwierigkeiten, da es keine fertigen Binaries zum Download gab. Aus diesem Grund mussten wir diese selbst aus den <a href="https://github.com/Complexible/pellet/releases/tag/2.3.1">Sourcecode</a> erstellen. Allerdings gab es hierbei ein Problem mit Java 8, welches nach einer <a href="https://github.com/Complexible/pellet/pull/15/files">gründlichen Recherche</a> behoben werden konnte. Nach dem Erstellen einer ausführbaren Version des Reasoners lief der Rest genauso, wie beim ELK Reasoner ab: Eine Konfiguration wurde erstellt und dem Wrapper die neuen Bibliotheken bekannt gemacht.</p>
+
+<h1>
+<a id="einbau-der-ontologien" class="anchor" href="#einbau-der-ontologien" aria-hidden="true"><span class="octicon octicon-link"></span></a>Einbau der Ontologien</h1>
+
+<p>Mit den meisten Ontologien haben wir keine Probleme gehabt, sie wurden vom Framework mit Hilfe der Skripte, die wir im <a href="https://zenodo.org/record/11133#.VZqR6rxalDs">ORE 2014 Live Competition Queries package</a> finden konnten, geparst, aufgrund ihrer Ausdrucksstärke in die Kategorien EL oder DL eingeteilt. Dabei wurden auch die für den Wettbewerb relevanten Queries erstellt. Nach ein paar manuellen Anpassungen von BFO, CL, UBERON und HP, waren auch diese lauffähig und konnten von den Reasonern bearbeitet werden. Diese hatte das Framework zunächst nicht als Valide anerkennen können.</p>
+
+<h1>
+<a id="ausführung" class="anchor" href="#ausf%C3%BChrung" aria-hidden="true"><span class="octicon octicon-link"></span></a>Ausführung</h1>
       </section>
 
     </div>
