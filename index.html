@@ -195,12 +195,38 @@
 </tbody>
 </table>
 
-<p>Informationen zur Ausdrucksstärke können <a href="http://www.cs.man.ac.uk/%7Eezolin/dl/">hier</a> oder im nachfolgenden Diagramm gefunden werden.</p>
+<p>Informationen zur Ausdrucksstärke können <a href="http://www.cs.man.ac.uk/%7Eezolin/dl/">hier</a> und im nachfolgenden Diagramm gefunden werden.</p>
 
 <p><img src="http://i.imgur.com/vg4o5Mn.jpg" alt=""></p>
 
 <h1>
 <a id="das-framework" class="anchor" href="#das-framework" aria-hidden="true"><span class="octicon octicon-link"></span></a>Das Framework</h1>
+
+<p>Beim <a href="https://github.com/andreas-steigmiller/ore-2014-competition-framework/">Framework</a> handelt es sich um das OWL Reasoner Evaluation 2014 (ORE2014) Competition Framework, was in Java realisiert wurde und deswegen auf allen Plattformen lauffähig sein sollte, die Java unterstützen. Damit ein Wettbewerb auf verschiedenen Plattformen ausgeführt werden kann, müssen die teilnehmenden Reasoner verschieden konfiguriert werden. Insbesondere müssen die Wrapper, die die Reasoner ausführen, auf der jeweiligen Plattform ausführbar sein (z.B. shell skripte unter Unix/Linux und batch dateien unter Windows).</p>
+
+<h1>
+<a id="konfiguration-der-reasoner" class="anchor" href="#konfiguration-der-reasoner" aria-hidden="true"><span class="octicon octicon-link"></span></a>Konfiguration der Reasoner</h1>
+
+<h2>
+<a id="hermit" class="anchor" href="#hermit" aria-hidden="true"><span class="octicon octicon-link"></span></a>HermiT</h2>
+
+<p>HermiT wurde bereits beim ORE2014 Frameworks mitgeliefert und musste nicht weiter angepasst werden.</p>
+
+<h2>
+<a id="chainsaw-fact-trowl-more" class="anchor" href="#chainsaw-fact-trowl-more" aria-hidden="true"><span class="octicon octicon-link"></span></a>Chainsaw, Fact++, TrOWL, MORe</h2>
+
+<p>Einige Reasoner konnten glücklicherweise aus den <a href="https://zenodo.org/record/11145#.VZqMAvmqhBc">Daten</a> des vergangenen, offiziellen Wettbewerbs entnommen werden und mussten aus deshalb nicht weiter angepasst werden.</p>
+
+<h2>
+<a id="elk" class="anchor" href="#elk" aria-hidden="true"><span class="octicon octicon-link"></span></a>ELK</h2>
+
+<p>Der ELK Reasoner ist zwar auch in den zuvor genannten Daten vorhanden, jedoch ist uns die Konfiguration des Reasoners gelungen, bevor wir auf diese gestoßen sind.
+Zunächst haben wir uns die <a href="https://code.google.com/p/elk-reasoner/downloads/detail?name=elk-distribution-0.4.1-owlapi-library.zip&amp;can=2&amp;q=">OWL API Version</a> von ELK heruntergeladen und dann eine Konfiguration mit Hilfe der <a href="https://github.com/andreas-steigmiller/ore-2014-competition-framework/blob/master/doc/README.pdf">Dokumentation</a> und dem bereits vorhandenen HermiT erstellt. Ein erneutes Erstellen des OREv2ReasonerWrappers war außerdem nötig um diesem die neuen Bibliotheken bekannt zu machen.</p>
+
+<h2>
+<a id="pellet" class="anchor" href="#pellet" aria-hidden="true"><span class="octicon octicon-link"></span></a>Pellet</h2>
+
+<p>Bei Pellet gab es einige Schwierigkeiten, da es keine fertigen Binaries zum Download gab. Aus diesem Grund mussten wir diese selbst aus den <a href="https://github.com/Complexible/pellet/releases/tag/2.3.1">Sourcecode</a> erstellen. Allerdings gab es hierbei ein Problem mit Java 8, welches nach einer <a href="https://github.com/Complexible/pellet/pull/15/files">gründlichen Recherche</a> behoben werden konnte. Nach dem Erstellen einer ausführbaren Version des Reasoners lief der Rest genauso, wie beim ELK Reasoner ab: Eine Konfiguration wurde erstellt und dem Wrapper die neuen Bibliotheken bekannt gemacht.</p>
       </section>
 
     </div>
